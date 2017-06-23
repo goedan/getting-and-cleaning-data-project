@@ -13,6 +13,6 @@ The script `run_analysis.R`performs the 5 steps described in the course project'
 * `x_train`, `y_train`, `x_test`, `y_test`, `subject_train` and `subject_test` contain the data from the downloaded files.
 * `x_data`, `y_data` and `subject_data` merge the previous datasets.
 * `features` contains the correct names for the `x_data` dataset, which are applied to the column names stored in `mean_and_std`, a numeric vector used to extract the desired data.
-* `activities` similarly contains the correct names for the `y_data` dataset.
+* `activities` similarly contains the correct activity names.
 * `all_data` merges `x_data`, `y_data` and `subject_data` into a single dataset.
 * `mean_data` contains the relevant averages which will be stored in a `.txt` file. `ddply()` from the plyr package is used to apply `colMeans()'.
